@@ -13,12 +13,11 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/titulo"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="24sp"
-        android:textStyle="bold"
-        tools:text="@string/titulo" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtCedula"
@@ -55,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="crear"
             android:text="@string/guardar"
             android:textAllCaps="false" />
 
@@ -63,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/limpiar"
             android:textAllCaps="false" />
     </LinearLayout>
